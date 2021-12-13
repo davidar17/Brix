@@ -128,7 +128,7 @@ namespace Brix
             Console.WriteLine("********************");
             Console.WriteLine("1 - Create 1M 5 characters long alphanumerical strings File and load it file to internal memory");
             Console.WriteLine("2 - Create 1M 5 characters long alphanumerical strings and load it to internal memory (without file creation)");
-            Console.WriteLine("3 - Exit\n");
+            
         }
 
         private static IEnumerable<string> CreateDummyStrings()
