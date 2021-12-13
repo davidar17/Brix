@@ -17,6 +17,8 @@ namespace Brix
 
         private void InitDictionary(IEnumerable<string> strings)
         {
+            // Each dictionary "key" represent a set of equal strings
+            // Each dictionary "value" contains a list of equal strings
             foreach (var word in strings)
             {
                 var charsArray = word.ToLower().ToCharArray();
